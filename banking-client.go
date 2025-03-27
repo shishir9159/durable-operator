@@ -1,11 +1,5 @@
 package app
 
-// This code simulates a client for a hypothetical banking service.
-// It supports both withdrawals and deposits, and generates a
-// pseudorandom transaction ID for each request.
-//
-// Tip: You can modify these functions to introduce delays or errors, allowing
-// you to experiment with failures and timeouts.
 import (
 	"errors"
 	"math/rand"

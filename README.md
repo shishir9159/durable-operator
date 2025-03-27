@@ -1,4 +1,4 @@
-# Temporal Go Project Template
+# Durable Kubernetes Operator Execution
 
 This is a simple project for demonstrating Temporal with the Go SDK.
 

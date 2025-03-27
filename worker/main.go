@@ -9,12 +9,11 @@ import (
 	"money-transfer-project-template-go/app"
 )
 
-// @@@SNIPSTART money-transfer-project-template-go-worker
 func main() {
 
 	c, err := client.Dial(client.Options{})
 	if err != nil {
-		log.Fatalln("Unable to create Temporal client.", err)
+		log.Fatalln("unable to create temporal client.", err)
 	}
 	defer c.Close()
 
@@ -32,5 +31,3 @@ func main() {
 		log.Fatalln("unable to start Worker", err)
 	}
 }
-
-// @@@SNIPEND
